@@ -1,0 +1,341 @@
+body {
+  background-image: url("Background4.jpg");
+}
+
+#NQ {
+  position: fixed;
+  bottom: 2%;
+  left: 38%;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+}
+#MFR {
+  position: fixed;
+  bottom: 2%;
+  left: 21%;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+}
+#SAN {
+  position: fixed;
+  bottom: 2%;
+  left: 4%;
+  width: 200px;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+}
+
+#SAN:hover {
+  box-shadow: inset 0 0 200px #00ff00, 0 0 200px #00ff00, 0 0 200px #00ff00,
+    0 0 200px #00ff00;
+  cursor: pointer;
+}
+
+#PQ {
+  position: fixed;
+  bottom: 2%;
+  left: 51%;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+}
+#Physics {
+  position: relative;
+  top: 10%;
+  left: 2%;
+  text-align: centre;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  width: 15%;
+  padding: 2px;
+  background-color: rgba(255, 7, 7, 0.63);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00ff95;
+  transition: ease-out 0.25s;
+}
+#Chemistry {
+  position: relative;
+  top: 10%;
+  left: 4%;
+  text-align: centre;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(255, 7, 7, 0.63);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+  width: 15%;
+  padding: 2px;
+}
+#Maths {
+  position: relative;
+  top: 10%;
+  left: 6%;
+  text-align: centre;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(255, 7, 7, 0.63);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+  width: 15%;
+  padding: 2px;
+}
+
+#name {
+  margin-top: 1%;
+  margin-left: 82.5%;
+  opacity: 1;
+}
+#AQ {
+  position: relative;
+  top: 10%;
+  left: 8%;
+  text-align: centre;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(164, 7, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+  width: 15%;
+  padding: 2px;
+}
+#submit {
+  position: relative;
+  top: 20px;
+  left: 22.5%;
+  text-align: centre;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgb(255, 188, 2);
+  width: 15%;
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #ff0000;
+  transition: ease-out 0.25s;
+}
+
+#question {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 75%;
+  margin-left: 2%;
+  margin-right: 15px;
+  border: 2px solid;
+  border-image-source: linear-gradient(45deg, rgb(58, 250, 0), cyan);
+  border-image-slice: 1;
+}
+
+.options {
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+  padding: 10px;
+  color: rgb(214, 212, 212);
+}
+
+.multi {
+  font-size: 175%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+  color: rgb(216, 212, 212);
+}
+
+.Matrix {
+  text-align: center;
+  margin-bottom: 0%;
+  color: rgb(211, 209, 209);
+}
+#PQRST {
+  text-align: center;
+  margin-bottom: -20%;
+  font-size: 175%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-top: 0%;
+}
+.MatrixOp {
+  zoom: 1.5;
+}
+
+.multi2 {
+  font-size: 175%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#matddiv {
+  margin-bottom: 15%;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+tr:nth-child(even) {
+  background-color: #4a98ff5e;
+}
+tr:nth-child(odd) {
+  background-color: #09ff705b;
+}
+
+.questions {
+  margin: 1%;
+}
+#master2 {
+  align-items: center;
+}
+#q1,
+#q11,
+#q21,
+#q31,
+#q41,
+#q51 {
+  margin-left: 225px;
+}
+
+#img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 75%;
+  margin-left: 2%;
+  margin-right: 15px;
+}
+
+#nexter {
+  position: fixed;
+  bottom: 2%;
+  left: 30%;
+  width: 200px;
+  text-align: centre;
+  background-color: rgb(0, 221, 55);
+}
+
+#prev {
+  position: fixed;
+  bottom: 2%;
+  left: 50%;
+  width: 200px;
+  text-align: centre;
+  background-color: rgb(0, 221, 55);
+}
+
+#firster {
+  margin-top: 10px;
+  background-color: rgba(248, 248, 38, 0.431);
+}
+
+#st {
+  position: fixed;
+  bottom: 2%;
+  left: 68%;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 0 #00c3ff;
+  transition: ease-out 0.25s;
+}
+
+#NQ:hover {
+  box-shadow: inset 0 0 200px red, 0 0 200px red, 0 0 200px red, 0 0 200px red;
+  cursor: pointer;
+}
+#PQ:hover {
+  box-shadow: inset 0 0 200px rgb(225, 0, 255), 0 0 200px rgb(225, 0, 255),
+    0 0 200px rgb(225, 0, 255), 0 0 200px rgb(225, 0, 255);
+  cursor: pointer;
+}
+#st:hover {
+  box-shadow: inset 0 0 200px rgb(255, 230, 0), 0 0 200px rgb(255, 230, 0),
+    0 0 200px rgb(255, 230, 0), 0 0 200px rgb(255, 230, 0);
+  cursor: pointer;
+}
+#MFR:hover {
+  box-shadow: inset 0 0 200px purple, 0 0 200px purple, 0 0 200px purple,
+    0 0 200px purple;
+  cursor: pointer;
+}
+
+#Physics:hover {
+  box-shadow: inset 0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255),
+    0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255);
+  cursor: pointer;
+}
+#Chemistry:hover {
+  box-shadow: inset 0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255),
+    0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255);
+  cursor: pointer;
+}
+#Maths:hover {
+  box-shadow: inset 0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255),
+    0 0 100px rgb(0, 234, 255), 0 0 100px rgb(0, 234, 255);
+  cursor: pointer;
+}
+#AQ:hover {
+  box-shadow: inset 0 0 100px rgb(0, 26, 255), 0 0 100px rgb(0, 26, 255),
+    0 0 100px rgb(0, 26, 255), 0 0 100px rgb(0, 26, 255);
+  cursor: pointer;
+}
+#submit:hover {
+  box-shadow: inset 0 0 100px rgb(255, 0, 0), 0 0 100px rgb(255, 0, 0),
+    0 0 100px rgb(255, 0, 0), 0 0 100px rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+#timer {
+  margin-top: -145px;
+  height: 145px;
+  padding-top: 40px;
+  margin-bottom: -50px;
+
+  color: white;
+  background: 2px linear-gradient(45deg, black, rgba(0, 106, 255, 0.671), black);
+}
+
+#qss {
+  margin-left: 12%;
+  margin-top: 10%;
+}
+
+#qsexit {
+  margin-left: 47%;
+  margin-top: 5%;
+}
+
+#Pause {
+  position: fixed;
+  bottom: 2%;
+  left: 80%;
+  width: 200px;
+  text-align: centre;
+  background-color: rgba(7, 65, 255, 0.897);
+  border-radius: 4px;
+}

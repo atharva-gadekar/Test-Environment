@@ -1,0 +1,59 @@
+
+
+
+
+
+
+/* .questions
+{
+  margin: 1%;
+}
+#master2
+{
+    align-items: center;
+}
+#q1,#q11,#q21,#q31,#q41,#q51
+{
+    margin-left: 18%;} */
+
+#back
+{
+    margin-left: 43.5%;
+    margin-top: 5%;
+    
+}
+#img
+{
+    margin-top: 5%;
+            margin-bottom: 5%;
+            width: 75%;
+            margin-left: 2%;
+            margin-right: 15px;
+            
+}
+
+#nexter{
+    position: fixed;
+    bottom: 2%;
+    left: 30%;
+    width: 200px;
+    text-align: centre;
+    background-color: rgb(0, 221, 55);
+}
+
+#prev{
+    position: fixed;
+    bottom: 2%;
+    left: 50%;
+    width: 200px;
+    text-align: centre;
+    background-color: rgb(0, 221, 55);
+}
+
+#firster
+{
+    margin-top: 10px;
+    background-color: rgba(248, 248, 38, 0.431);
+}
+
+

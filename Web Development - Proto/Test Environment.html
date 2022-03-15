@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Environment - Jee Advanced</title>
+    <link rel="stylesheet" href="Test Environment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  
+    <style>
+    hr.one{
+        margin-top: 0%;
+        border: none;
+        height: 25px;
+        background-color: black;
+        }
+        hr.two{
+        margin-top: -20px;
+        margin-bottom: 0px;
+        border: none;
+        height: 30px;
+        background-color: rgb(189, 184, 184);
+        }
+        div.three
+        {
+            margin-top: -6.5%;
+            width: 100%; height: 35px; font-family: Arial, Helvetica, sans-serif; font-size: 25px; color:black; margin-bottom: 10px;
+            text-align: center;
+            font-weight: bolder;
+            font-style: oblique;
+            
+ 
+        }
+        </style>
+</head>
+<body>
+
+   <div id="master">
+    <img src="name.JPG" id="name">
+    <table style="border: thin;"></table>
+    <button type="button" class="btn btn-primary btn-lg" id="NQ">Next Step</button> 
+    <button type="button" class="btn btn-primary btn-lg" id="PQ">Previous Question</button> 
+    <button type="button" class="btn btn-info" id="Physics">Physics</button> 
+    <button type="button" class="btn btn-info" id="Chemistry">Chemistry</button> 
+    <button type="button" class="btn btn-info" id="Maths">Maths</button>
+    <button type="button" class="btn btn-info" id="AQ">ALL QUESTIONS</button>   
+    <button type="button" class="btn btn-warning" id="submit" onclick="submit()">Submit</button> 
+    <button type="button" class="btn btn-primary btn-lg" id="MFR">Mark For Review</button>
+    <button type="button" class="btn btn-primary btn-lg" id="st" onclick="asktype()">Show Type</button>
+    <button type="button" class="btn btn-primary btn-lg" id="SAN">Save and Next</button>
+    <button type="button" class="btn btn-primary btn-lg" id="Pause" onclick="Pause()">Pause</button>
+     
+    <div class="three" id="timer">Jee Advanced 2021 </div>
+
+    <img src="Marking Scheme.JPG" id="question">
+ 
+  
+
+
+    <input type="checkbox" value="a" id="a" style="display: none;">
+  <label for="a" id="Al" class="options " style="display: none;">
+    A
+  </label>
+
+  <input  type="checkbox" value="b" id="b" style="display: none;" >
+  <label for="b" id="Bl" class="options" style="display: none;">
+    B
+  </label>
+
+  <input  type="checkbox" value="c" id="c" style="display: none;">
+  <label for="c" id="Cl" class="options" style="display: none;">
+    C
+  </label>
+
+  <input  type="checkbox" value="d" id="d"  style="display: none;">
+  <label for="d" id="Dl" class="options" style="display: none;">
+   D
+  </label>
+
+
+<input type="checkbox" value="m" id="m" style="display: none;">
+<label for="m" id="ml" class="multi" style="display: none;">M</label>
+
+<input type="checkbox" value="n" id="n" style="display: none;">
+<label for="n" id="nl" class="multi" style="display: none;">N</label>
+
+<input type="checkbox" value="mat" id="mat" style="display: none;">
+<label for="mat" id="matl" class="multi" style="display: none;">Mat</label>
+
+<input id="num" placeholder="Enter your ans" type="number" style="display: none;">
+
+<label  id="tp" class="multi" style="display: none;">Pls Scroll Down</label>
+
+<br>
+
+<div class="Matrix multi2" id="matadiv" style="display: none;" >
+<label for="A" id="matal" > A---> </label>
+<input type="checkbox" value="ap" id="ap" class="MatrixOp">
+<input type="checkbox" value="aq" id="aq" class="MatrixOp">
+<input type="checkbox" value="ar" id="ar" class="MatrixOp">
+<input type="checkbox" value="as" id="as" class="MatrixOp">
+<input type="checkbox" value="at" id="at" class="MatrixOp">
+</div>
+<div class="Matrix multi2" id="matbdiv" style="display: none;" >
+  <label for="B" id="matbl"> B---> </label>
+  <input type="checkbox" value="bp" id="bp" class="MatrixOp">
+  <input type="checkbox" value="bq" id="bq" class="MatrixOp">
+  <input type="checkbox" value="br" id="br" class="MatrixOp">
+  <input type="checkbox" value="bs" id="bs" class="MatrixOp">
+  <input type="checkbox" value="bt" id="bt" class="MatrixOp">
+  </div>
+
+  <div class="Matrix multi2" style="display: none;" id="matcdiv">
+    <label for="c" id="matcl"> C---> </label>
+    <input type="checkbox" value="cp" id="cp" class="MatrixOp">
+    <input type="checkbox" value="cq" id="cq" class="MatrixOp">
+    <input type="checkbox" value="cr" id="cr" class="MatrixOp">
+    <input type="checkbox" value="cs" id="cs" class="MatrixOp">
+    <input type="checkbox" value="ct" id="ct" class="MatrixOp">
+    </div>
+
+    <div class="Matrix multi2" style="display: none;" id="matddiv">
+      <label for="d" id="matdl"> D---> </label>
+      <input type="checkbox" value="dp" id="dp" class="MatrixOp">
+      <input type="checkbox" value="dq" id="dq" class="MatrixOp">
+      <input type="checkbox" value="dr" id="dr" class="MatrixOp">
+      <input type="checkbox" value="ds" id="ds" class="MatrixOp">
+      <input type="checkbox" value="dt" id="dt" class="MatrixOp">
+      </div>
+    </div>
+
+    <div id="master2" style="display: none;"></div>
+    <div id="master3" style="display: none;">
+      <img id="qss" src = "(1).JPG"><button id="qsexit" class="btn btn-warning" onclick="qsexit">Exit</button>
+    </div>
+      <script src="Test Environment.js"></script>
+</body>
+</html>
